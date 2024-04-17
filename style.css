@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family: ´Cabin Sketch´, sans-serif;
+    font-family:Stylish , 
+
 }
 
 header {
@@ -28,38 +30,55 @@ header {
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
-}
+} 
 
-.escola-imagem {
+.escola-imagem{
     width: 25%;
 }
-
 .escola {
-    background-image: linear-gradient(#424E61, #4EBFE9);
-    color: white;
-    display: flex;
-    justify-content: center
-    aling-items: center
+    background-image:linear-gradient(#424e61, #4ebfe9);
+    color:white;
+    display; flex;
+    justify-content: center;
+    align-items: center;
     padding: 24px 0;
 }
 
-.escola-div-conteudo {
-    whidth: 35% 
+.escola-div-conteudo{
+    width:35%;
 }
-.escola-titulo {
+
+.escola-titulo{ 
     padding: 24px 0;
 }
 
 .estudante-imagem{
-    width: 30%;
-}
-
-.estudante-icone{
     width: 25px;
     padding: 4px 8px;
 }
 
+.estudante-icone {
+    width: 25px;
+    padding: 4px 8px;
+}
 .estudante-div{
     text-align: center;
-    padding: 16px 0px;
+    padding:16px 0 ;
 }
+
+.etudante-titulo {
+    text-align: center;
+    padding: 50px;
+}
+
+.rodape {
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+
