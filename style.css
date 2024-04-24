@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family:Stylish , 
+    font-family: Stylish , 
 
 }
 
@@ -53,8 +53,7 @@ header {
 }
 
 .estudante-imagem{
-    width: 25px;
-    padding: 4px 8px;
+    width: 30%;
 }
 
 .estudante-icone {
