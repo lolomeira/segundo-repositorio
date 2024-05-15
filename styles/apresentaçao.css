@@ -4,7 +4,8 @@
 }
 
 body {
-    font-family: Stylish , 
+    font-family: 'Roboto', sans-serif;
+    
 
 }
 
@@ -37,7 +38,7 @@ header {
 }
 .escola {
     background-image:linear-gradient(#d11de9, #5226a3);
-    color: white;
+    color: rgb(153, 94, 187);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,8 +58,8 @@ header {
 }
 
 .estudante-icone {
-    width: 25px;
-    padding: 4px 8px;
+    width: 20px;
+    padding: 3px 5px;
 }
 .estudante-div{
     text-align: center;
@@ -71,7 +72,7 @@ header {
 }
 
 .rodape {
-    background-color: black;
+    background-color: rgb(166, 127, 202);
     text-align: center;
 }
 
