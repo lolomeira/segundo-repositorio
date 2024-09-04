@@ -31,6 +31,28 @@
         margin: 2em 0 3em 0;
     }
     .wiper{
-        
+
     }
 }
+
+.swiper-button-prev, 
+    .swiper-button-next {
+        disply: block;
+        top: 60%;
+    }
+    
+@media screen and (min-width: 1728px){
+    .carrosel_container {
+        display: flex; 
+        margin:00 20vw 3em 2vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+}    
