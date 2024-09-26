@@ -155,34 +155,27 @@
         <div class="estudante-div">
             <img src="img/WhatsApp Image 2024-04-16 at 22.13.33.jpeg" alt="foto do gerson" class="estudante-imagem">
             <h3 class="estudante-nome"> Heloia Florentino e Meira </h3>
-            <a href="https://github.com/cesargrobe/segundo-repositorio2E.git"> <img src="img/github.svg" alt="icone do github" class="estudante-icone"> </a>
+            <a href="https://github.com/lolomeira"> <img src="img/github.png" alt="icone do github" class="estudante-icone"> </a>
             <a href="https://instagram.com/eii.lolozinha"> <img src="img/instagram.svg" alt="icone do instagram" class="estudante-icone"> </a>
-            <a href="https://wa.me/<41996130589> "> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
+            <a href="https://wa.me/41996130589"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
         </div>
     </section>
 
-    <footer class="rodape">
+    <footer class="rodape"></footer>
         <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
 
-        const swiper = new swiper ("swiper" {
-            direction: "vertical";
-            loop true;
-
-            pagination{
-                el: "swiper-pagination",
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
             },
-            navigation: {
-                nextEl: "swiper-button-next",
-            },
-            scrollbar:{
-                el: "swiper-scrollbar",
-            })
-        
+        });
     </script>
 
 </body>
