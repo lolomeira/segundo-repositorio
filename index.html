@@ -10,7 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link 
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/apresentacao.css">
@@ -32,28 +37,24 @@
             </ul>
       
             <img class="cabecalho-imagem  container__imagem" src="./img/alurastart_logo.png" alt="logo AluraStart">
-            <h1 class="container-titulo"> Pastel e Cana  </h1>
+            <h1 class="container-titulo"> HM pastel e cana  </h1>
         </div>
 
         <ul class="opcoes">
             <input type="checkbox"   id="opcoes-menu"    class="opcoes__botao">
             <label for="opcoes-menu"> 
-                <li class="opcoes__item"> PESTEI SABOR :
-                frango
-                queijo 
-            carne
-         </li>
+                <li class="opcoes__item"> SABORES </li>
             </label>
 
             <ul class="cabecalho-lista">
                 <li class="cabecalho-lista-item">
-                    <a href="#" class="menu__lista-item">Carne </a>
+                    <a href="#" class="menu__lista-item"> PASTEL DE CARNE </a>
                 </li>
                 <li class="cabecalho-lista-item">
-                    <a href="#" class="menu__lista-item">Queijo </a>
+                    <a href="#" class="menu__lista-item">PASTEL DE FRANGO</a>
                 </li>
                 <li class="cabecalho-lista-item">
-                    <a href="#" class="menu__lista-item">Frango </a>
+                    <a href="#" class="menu__lista-item">PASTEL DE QUEIJO </a>
                 </li>
             </ul>
 
@@ -63,10 +64,10 @@
         </ul>
 
         <div class="container">
-            <a href="#"> <img  class="cabecalho-imagem cabecalho__favorito" src="./img/heloisa meira.png" alt="Meus favoritos"> </a>
+            <a href="#"> <img  class="cabecalho-imagem cabecalho__favorito" src="./img//favoritos.vg" alt="Meus favoritos"> </a>
             <a href="#" class="container__link" >
-                <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
-                <p class="container__texto"> Minha Sacola </p>
+                <img class="cabecalho-imagem" src="./img/compra.svg" alt="Carrinho de compras">
+                <p class="container__texto"> MEU CARRINHO </p>
             </a>
             <a href="#" class="container__link" >
                 <img  class="cabecalho-imagem"  src="img/usuario.svg" alt="Meu Perfil">
@@ -97,71 +98,76 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="./img/pastel1" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/pastel 2" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/pastel 3.avif" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/pastel 4.jpg" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/pastel 5 .png" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/6.jpg" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/7.jpg" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/8.jpeg" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/9.jpg" alt="pastel"></div>
-                <div class="swiper-slide"><img src="./img/10.jpeg" alt="pastel"></div>
+                <div class="swiper-slide"><img src="./img/pastel1" alt="função seno"></div>
+                <div class="swiper-slide"><img src="./img/pastel 2" alt="mesa de estudo"></div>
+                <div class="swiper-slide"><img src="./img/pastel 3.avif" alt="formula de bhaskara"></div>
+                <div class="swiper-slide"><img src="./img/pastel 4.jpg" alt="quadro com fórmulas"></div>
+                <div class="swiper-slide"><img src="./img/pastel 5 .png" alt="relatorio"></div>
+                <div class="swiper-slide"><img src="./img/6.jpg alt="dispositivos móveis"></div>
+                <div class="swiper-slide"><img src="./img/7.jpg" alt="halloween"></div>
+                <div class="swiper-slide"><img src="./img/8.jpeg" alt="função seno"></div>
+                <div class="swiper-slide"><img src="./img/9.jpg" alt="função seno"></div>
+                <div class="swiper-slide"><img src="./img/10.jpeg" alt="função seno"></div>
+                
+                
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
                 
             </div>
-
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-  
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-  
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+           
         </div>
-
+        
+        <!-- Promoção - Melhor Produto -->
         <div class="card">
 
             <div class="card__descricao">
-                <h3 class="descricao__titulo">Talvez voce tambem se interese por...</h3>
-                <h2 class="descrcao__titulo-produto">Pastel</h2>
-                <p> <class class="descricao__texto">...</class>
 
-                </p>
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
+                    <h2 class="descricao__titulo-produto">caldo de cana </h2>
+                    <p class="descricao__texto"> Caldo de cana geladinho com ou sem limao </p>
+                </div>
+                
+                <img src="./img/" alt="Foto da promoção" class="desricao__imagem">
+
             </div>
 
             <div class="card__botoes">
                 <ul class="botoes">
-                <li class="botoes__item"><img src="" alt="favoritar produtos"></li>   
-                <li class="botoes__item"><img src="" alt="Adicionar ao carrinho de compras"></li>
-             </ul>
-             
-             <a href="#" class="botoes__ancora">Saiba mais</a>
+                    <li class="botoes__item">
+                        <img src="./img/favoritos.vg" alt="Favoritar produto">
+                    </li>
+                    <li class="botoes__item"> 
+                        <img src="./img/compra.svg" alt="Adicionar no carrinho de compras">
+                    </li>
+                </ul>
 
-             </div>
-        
+                <a href="#" class="botoes__ancora">Saiba mais</a>
 
             </div>
         </div>
 
-
-
+    
+    
+    
+    
     </section>
 
 
     <section class="estudante">
         <h2 class="estudante-titulo">Quem sou</h2>
         <div class="estudante-div">
-            <img src="img/WhatsApp Image 2024-04-16 at 22.13.33.jpeg" alt="foto da heloisa" class="estudante-imagem">
-            <h3 class="estudante-nome"> Heloia Florentino e Meira </h3>
+            <img src="img/WhatsApp Image 2024-04-16 at 22.13.33.jpeg" alt="foto da Heloisa" class="estudante-imagem">
+            <h3 class="estudante-nome">Heloisa Florentino de Meira</h3>
             <a href="https://github.com/lolomeira"> <img src="img/github.png" alt="icone do github" class="estudante-icone"> </a>
             <a href="https://instagram.com/eii.lolozinha"> <img src="img/logotipo-do-instagram.png" alt="icone do instagram" class="estudante-icone"> </a>
-            <a href="https://wa.me/41996130589"> <img src="img/whatsapp.png" alt="icone do whatsapp" class="estudante-icone"> </a>      
+            <a href="https://wa.me/5541996130589"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
         </div>
     </section>
 
-    <footer class="rodape"></footer>
+    <footer class="rodape">
         <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
     </footer>
 
