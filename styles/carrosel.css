@@ -8,8 +8,8 @@
     padding: 1em 0 0.5em 0;
 }
 
-.swiper-lide img {
-    width: 100%;
+.swiper-slide img {
+    width: 50%;
 }
 
 .wiper-button-prev,
