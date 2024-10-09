@@ -103,21 +103,7 @@
         padding: 0 2em;
         text-transform: uppercase;
         color: var(--branco);
-    }.cabecalho {
-        background-color: var(--cor-principal);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
     }
-    
-    .container {
-        display: flex;
-    …        display: none;
-        }
-    
-        .cabecalho__favorito {
-            display: none;
 
     .opcoes__link{
         text-decoration: none;
