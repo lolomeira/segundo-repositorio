@@ -1,0 +1,12 @@
+.flashcard {
+ background-color: var(#812785);
+}
+
+#flashcard {
+    display: flex;
+}
+
+.cartao{
+    margin: 1rem 1rem;
+}
+
