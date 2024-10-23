@@ -1,6 +1,11 @@
 #flashcard {
     background-color: var(--cor-principal);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
+    
 }
 
 .cartao {
