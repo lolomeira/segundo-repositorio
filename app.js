@@ -24,3 +24,19 @@ function criaCartao (item, pergunta, resposta) {
 
 
             }
+
+            let respostaEstaVisivel = false; 
+
+        function viraCartao () {
+          respostaEstaVisivel = !variavelEstaVisivel;
+          cartao.classList.toggle('active', viracartao);
+        }
+
+        cartao.addEventlistener('click', viraCartao);
+    
+
+    flashcard.appendChield(cartao);
+
+}
+          
+          
