@@ -29,5 +29,3 @@ function criaCartao(item, pergunta, resposta) {
     flashcard.appendChild(cartao)
 
 }
-          
-          
