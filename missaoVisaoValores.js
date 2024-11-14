@@ -1,7 +1,7 @@
 criaCartao (
   'Missão',
   'Saiba qual é a missao de nossa empresa!',
-  'Nossa missão é, trazer alegria para as pessoas através de momentos de qualidade em familia, tomando uma caana bem gelada com um pastel frito na hora!!!'
+  'Nossa missão é, trazer alegria para as pessoas através de momentos de qualidade em familia, tomando uma cana bem gelada com um pastel frito na hora!!!'
 )
 
 criaCartao (
