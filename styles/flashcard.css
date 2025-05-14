@@ -1,60 +1,58 @@
 #flashcard {
-    background-color: bisque;
+    background-color: var(--cor-fundo);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 2rem;
-    gap: 2rem;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 .cartao {
     margin: 1rem 1rem;
+    background-color: var(--cor-botao);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo {
-    background-color: var(--cor-botao);
+.cartao__conteudo{
+    background-color: var(--cor-branco);
     text-align: center;
     height: 100%;
+  
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    
 }
 
 .cartao__conteudo h3 {
     background-color: var(--cor-principal);
-    color: var(--cor-branco);
-    border: 1px solid var(--cor-branco);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2.5vw;
+    text-align: left;
     padding: 0.5rem;
-    position: relative;
-    margin: 1.2rem 0 0.6rem 0;
+    position: absolute;
+    margin: 0.6rem;
+    border: 1px solid var(--cor-rosa);
     border-radius: 0.6rem;
     font-size: 1vw;
+    color: var(--cor-branco);
     backface-visibility: hidden;
 }
 
 .cartao__conteudo p {
     margin-top: 1rem;
+    color: var(--cor-preto);
     padding: 2rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-size: 1.4vw;
 }
 
 .cartao__conteudo__pergunta p {
-    color: var(--cor-principal);
+    color: var(--cor-preto);
     font-weight: 500;
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--cor-branco);
+    color: var(--cor-fundo);
     font-weight: 700;
 }
 
@@ -63,7 +61,7 @@
 }
 
 .cartao__conteudo__pergunta,
-.cartao__conteudo__resposta {
+.cartão__conteudo__resposta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
@@ -73,9 +71,8 @@
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgb(132, 94, 194, 0.1);
-    border: 4px solid var(--cor-principal);
-    font-size: 1vw;
+    background-color: rgba(0, 244, 191, 0.2);
+    border: 4px solid var(--cor-preto);
 }
 
 @media (max-width: 560px) {
