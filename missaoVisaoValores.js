@@ -1,18 +1,17 @@
 criaCartao (
-  'Missão',
+  'GERSON',
   'Saiba qual é a missao de nossa empresa!',
-  'Nossa missão é, trazer alegria para as pessoas através de momentos de qualidade em familia, tomando uma cana bem gelada com um pastel frito na hora!!!'
+  'Os melhores professores são aqueles que se tornam verdadeiros amigos e compartilham sua sabedoria em todos os momentos'
 )
 
 criaCartao (
-    'Visão',
+    'CESAR',
     'Saiba qual  a visão de nossa empresa',
-    'Nossa visao é servir refeições com agilidade, mas garantindo a qualidade, para que os clientes possam saborear o seu pedido ainda quente e estejam sempre satisfeitos com o sabor e qualidade do produto'
+    'Queremos homenagear todos esses anos que vc nos fez passar raiva com (Java Script, CSS, HTML, Arduíno R3 e códigos e mais códigos..'
 )
 
 criaCartao (
-    'Valores',
+    'GROBE',
     'Saiba quais sao os valores de nossa empresa!',
-    'Nossos valores sao, solidariedade, qualidade, excelencia, inovação, sensações e a fidelizaçao do cliente'
-)
+    'Nossa turma te ama e não poderiamos deixar de homenagear uma das pessoas q mais participou do  nossoe nsino médio esperamos que voce aceite nosso convite... ')
 
