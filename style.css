@@ -15,3 +15,69 @@
     --cor-preto: #000000;
     --cor-branco: #ffffff;
 }
+
+.menu-acessibilidade{
+    position: fixed;
+    top:3rem;
+    right:20px;
+    z-index: 1000;
+}
+
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+
+.apresenta-lista{
+    display: none;
+}
+
+.alto-contraste {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.alto-contraste header,
+.alto-contraste .formulario {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.alto-contraste .nav-link {
+    color: var(--cor-secundaria);
+}
+
+.alto-contraste .carrossel__titulo {
+    color: var(--cor-branco);
+}
+
+.alto-contraste footer,
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-preto);
+}
+
+.alto-contraste .btn-primary {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+}
+
+.alto-contraste #escola {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--cor-preto);
+}
+
