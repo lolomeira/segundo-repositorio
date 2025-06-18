@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      
+    <link rel="stylesheet" href="style.css">
+    <!-- link rel="stylesheet" href="styles/apresentacao.css" -->
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container1">
+            <input type="checkbox"  id="menu"    class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu  container__imagem"> </span> 
+            </label>
+
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-titulo"> Categorias </li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Gerson</a></li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item">Cesar </a></li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Grobe</a></li>
+            </ul>
+      
+            <img class="cabecalho-imagem  container__imagem" src="img/logoturma.jpeg" alt="logo AluraStart">
+            <h1 class="container-titulo">3° E 2025</h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox"   id="opcoes-menu"    class="opcoes__botao">
+            <label for="opcoes-menu"> 
+                <li class="opcoes__item"> CATEGORIAS </li>
+            </label>
+
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Melhor </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Prosessor </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Do Colégio </a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  javascript  </a> </li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  html</a></li>
+
+        </ul>
+
+        <div class="container1" id="container__left">
+            <a href="#"> <img id="favorito-header" class="cabecalho-imagem cabecalho__favorito header__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
+            <a href="#" class="container__link" >
+                <img class="cabecalho-imagem" src="./img/compra.svg" alt="Carrinho de compras">
+                <p class="container__texto"> Minha Sacola </p>
+            </a>
+            <a href="#" class="container__link" >
+                <img  class="cabecalho-imagem"  src="img/usuario.svg" alt="Meu Perfil">
+                <p class="container__texto" >Meu Perfil</p>
+            </a>
+        </div>
+
+        <div id="acessibilidade" class="menu-acessibilidade" >
+            <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">Acessibilidade</button>
+            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
+                <button  id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
+                <button  id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+                <button  id="alterna-contraste" class="btn btn-primary fw-bold"><i class="bi bi-shadows"></i></button>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="escola">
+            <div class="escola-div-conteudo">
+                <h2 class="escola-titulo"> Sobre a turma </h2>
+            <p class="escola-texto-um"> Nossa turma é a turma mais legal do colégio, por isso temos a honra de te fazer esse convite...</p>
+        </div>
+        <img src="img/fototurma.jpeg" alt="imagem da escola" class="escola-imagem">
+
+        </section>
+
+        <section id="flashcard" >
+    
+           <!--
+           
+            <article class="cartao">
+
+                <div class="cartao__conteudo">
+                    <h3>Missão</h3>
+                    
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Saiba qual é a missão de nossa empresa!</p>
+                    </div>
+                    
+                    <div class="cartao__conteudo__resposta">
+                        <p>Nossa missão é ... </p>
+                    </div>
+                </div>
+                
+            </article>
+            
+            
+            <article class="cartao">
+
+                <div class="cartao__conteudo">
+                    <h3>Visão</h3>
+                    
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Saiba qual é a Visão de nossa empresa!</p>
+                    </div>
+                    
+                    <div class="cartao__conteudo__resposta">
+                        <p>Nossa Visão é ... </p>
+                    </div>
+                </div>
+                
+            </article>
+        
+            <article class="cartao">
+                
+                <div class="cartao__conteudo">
+                    <h3>Valores</h3>
+                    
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Saiba quais são os valores de nossa empresa! </p>
+                    </div>
+                    
+                    <div class="cartao__conteudo__resposta">
+                        <p>Nossos valores são ... </p>
+                    </div>
+                </div>
+                
+            </article>
+             -->
+
+
+         <section id="galeria" class="carrossel">
+            
+            
+            <h2 class="carrossel__titulo">Nossos Serviços</h2>
+
+            <div class="carrossel__container">
+              
+                <div class="swiper">
+                   
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide"><img src="./img/pastel1" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/pastel 2" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/pastel 3.avif" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/pastel 4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/pastel 5 .png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/7.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/8.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/9.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/10.jpeg" alt=""></div>
+                    
+                    </div>
+                     
+                        
+                        
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                        
+                
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section class="estudante">
+            <h2 class="estudante-titulo">Quem sou</h2>
+            <div class="estudante-div">
+                <img src="img/FOTO DO CESARGROBE.jpeg" alt="foto do Gerson" class="estudante-imagem">
+                <h3 class="estudante-nome"> Gerson Cesar Grobe de Miranda </h3>
+                <a href="https://github.com/cesargrobe"> <img src="img/github.png" alt="icone do github" class="estudante-icone"> </a>
+                <a href="https://instagram.com/terceiroe_gl25"> <img src="img/logotipo-do-instagram.png" alt="icone do instagra" class="estudante-icone"> </a>
+                <a href="https://wa.me/5541996130589"> <img src="img/whats logo 2.jpg" alt="icone do whatsapp" class="estudante-icone"> </a>      
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img src="img/TRABALHO COLÉGIO.jpg" alt="logo da alura" class="rodape-imagem">
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="favoritos.js" ></script>
+    <script src="app.js" ></script>
+    <script src="missaoVisaoValores.js" ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+</body>
+
+</html>
+ 

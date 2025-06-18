@@ -13,5 +13,5 @@ criaCartao (
 criaCartao (
     'GROBE',
     'Sua turma favorita!!',
-    'Nossa turma te ama e não poderiamos deixar de homenagear uma das pessoas q mais participou do  nosso ensino médio, e esperamos que voce aceite nosso convite... ')
+    'Nossa turma te ama e não poderiamos deixar de homenagear uma das pessoas q mais participou do  nosso ensino médio, e esperamos que voce aceite nosso convite e seja nosso padrinho')
 
